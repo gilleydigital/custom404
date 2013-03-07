@@ -1,0 +1,1 @@
+## Extendible custom 404 for Kohana 3.3
