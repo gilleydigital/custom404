@@ -6,10 +6,14 @@ It aims to make it as easy as possible to integrate the 404 page into your curre
 
 Setup
 ----------
-First, install custom404 like you would any other Kohana module:
+Install like any other Kohana module:
 
-1. Clone or download it into a folder called "custom404" in your modules folder.
+1. Clone or download it into your Kohana modules folder.
 2. Add it to the Kohana::modules call in bootstrap.php in your application folder.
+[See the Kohana documentation for more detailed instructions](http://kohanaframework.org/3.3/guide/kohana/modules)
+
+Usage
+----------
 
 By default, the module points 404s to the URI 'errors/404' and contains a Controller_Error with Action_404, so if you're using the default route you should see 'Page not found' on your 404s now.
 
